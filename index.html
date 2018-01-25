@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.SuperSlide.2.1.2.js"></script>
+</head>
+
+<body>
+    <!-- 引入头部 -->
+    <div class="top"></div>
+    <div class="header clearfix">
+        <a class="logo"></a>
+        <div class="nav">
+            <a href="">首页</a>
+            <a href="">走进我们</a>
+            <a href="">服务产品</a>
+            <a href="">项目展示</a>
+            <a href="">新闻动态</a>
+            <a href="">企业文化</a>
+            <a href="">关于我们</a>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="fullSlide">
+        <div class="bd">
+            <ul>
+                <li>
+                    <a target="_blank" href="">
+                        <img src="images/banner.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <img src="images/banner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="">
+                        <img src="images/banner3.jpg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hd">
+            <ul>
+                <li class="on"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+    </div>
+    <script type="text/javascript">
+        jQuery(".fullSlide").slide({
+            titCell: ".hd ul",
+            mainCell: ".bd ul",
+            effect: "leftLoop",
+            vis: "auto",
+            autoPlay: true,
+            autoPage: true,
+            trigger: "click"
+        });
+    </script>
+    </div>
+    <!-- 四个图标 -->
+    <div class="service-tab">
+        <div class="service-tab-subtit">
+            xxxx
+        </div>
+        <div class="service-tab-tit">
+            中国商业物业专业服务商
+        </div>
+        <div class="service-tab-list clearfix">
+            <a href="">
+                <div class="service-icon service-icon-shangye"></div>
+                <div class="info">
+                    <div class="info-tit">
+                        商业物业
+                    </div>
+                    <div class="info-main">
+                        公司实施专业的保安、保洁、绿化和工程维护保养管理服务，有全委管理、单项管理、品牌输出管理
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="service-icon service-icon-gongzhong"></div>
+                <div class="info">
+                    <div class="info-tit">
+                        公众物业
+                    </div>
+                    <div class="info-main">
+                        公司实施专业的保安、保洁、绿化和工程维护保养管理服务，有全委管理、单项管理、品牌输出管理
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="service-icon service-icon-bangong"></div>
+                <div class="info">
+                    <div class="info-tit">
+                        办公物业
+                    </div>
+                    <div class="info-main">
+                        公司实施专业的保安、保洁、绿化和工程维护保养管理服务，有全委管理、单项管理、品牌输出管理
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="service-icon service-icon-zhuzhai"></div>
+                <div class="info">
+                    <div class="info-tit">
+                        住宅物业
+                    </div>
+                    <div class="info-main">
+                        公司实施专业的保安、保洁、绿化和工程维护保养管理服务，有全委管理、单项管理、品牌输出管理
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="middle clearfix">
+            <h1>我们的案例项目</h1>
+            <p>商业 &nbsp;/&nbsp; 公共 &nbsp;/ &nbsp;住宅 &nbsp;/&nbsp; 办公 &nbsp;</p>
+            <!-- pictures-1 -->
+        <div class="picMarquee-left">
+             <div class="bd">
+                 <ul class="picList">
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-1.jpg" alt=""></a></div>
+                        <div class="title"><a href="">世界气象馆</a></div>
+                    </li>
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-2.jpg" alt=""></a></div>
+                        <div class="title"><a href="">健康保健中心</a></div> 
+                    </li>
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-3.jpg" alt=""></a></div>
+                        <div class="title"><a href="">世界委员会中心</a></div>
+                    </li>
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-4.jpg" alt=""></a></div>
+                        <div class="title"><a href="">埃菲尔铁塔</a></div>
+                    </li>
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-5.jpg" alt=""></a></div>
+                        <div class="title"><a href="">火影忍者</a></div>
+                    </li>
+                    <li>
+                        <div class="pic"><a href=""><img src="./images/item-6.jpg" alt=""></a></div>
+                        <div class="title"><a href="">英国大本钟</a></div>
+                    </li>
+                 </ul>
+             </div>
+             <div class="hd clearfix">
+                 <div class="prev"></div>
+                 <div class="next"></div>
+             </div>
+        </div> 
+        <script type="text/javascript">
+            jQuery(".picMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:4,interTime:20});
+            </script>
+    
+      
+     
+            <!-- news -->
+            <div class="news clearfix">
+                <h1 class="message">新闻动态</h1>
+                <p class="all">全部 > ></p>
+                <h2 class="article-list-1">
+                    <a href="">
+                        [2014-10-16]关于开展2014年上海市物业管理企业诚信承诺申报的通知
+                    </a>
+                </h2>
+                <h4 class="article-list-2">
+                    <a href="">诚信承诺企业有效期到期的必须参加本次申报, 如条件不符合申报上一等级诚信承诺企业的,可以...</a>
+                </h4>
+                <h2 class="article-list-3">
+                    <a href="">
+                        [2014-10-9]小区地上部分与地下车库可否由两家物业管理之案例分析
+                    </a>
+                </h2>
+                <h4 class="article-list-4">
+                    <a href="">某公司物业为某小区的前期物业管理单位, 小区业主委员会成立后, 另聘其他物业公司管理该小区...</a>
+                </h4>
+                <h2 class="article-list-5">
+                    <a href="">
+                        [2014-9-12]关于表彰上海市物业管理行为 "金点子" 创新成果项目的通知
+                    </a>
+                </h2>
+                <h4 class="article-list-6">
+                    <a href="">为提高物业服务企业的自主创新能力和管理服务水平, 激发员工的岗位创新,创效意识的热情...</a>
+                </h4>
+            </div>
+            <!-- news-2 -->
+            <div class="news-2">
+                <p class="text-1">
+                    <a href="">多年来, 服务超过2000家客户</a>
+                </p>
+                <p class="text-2">
+                    <a href="">专业,诚信,高效的管理设计能力与执行能力</a>
+                </p>
+                <p class="text-3">
+                    <a href="">持续驱动百联物业管理的快速成长, 实行与开发商/业主共赢的目标</a>
+                </p>
+                <h1 class="business">我们是
+                    <a href="">中国商业专业物业服务商</a>
+                </h1>
+                <div class="online">
+                    <a href="">
+                        <i class="fa fa-commenting-o fa-2x chat"> 在线留言</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 引入底部 -->
+        <div class="footer">
+            <div class="list">
+                <!-- 物业 -->
+                <ul class="tenement">
+                    <li>项目</li>
+                    <li>
+                        <a href="">商业物业</a>
+                    </li>
+                    <li>
+                        <a href="">办公楼物业</a>
+                    </li>
+                    <li>
+                        <a href="">公众物业</a>
+                    </li>
+                    <li>
+                        <a href="">住宅物业</a>
+                    </li>
+                </ul>
+                <!-- 服务 -->
+                <ul class="service">
+                    <li>服务</li>
+                    <li>
+                        <a href="">基础服务</a>
+                    </li>
+                    <li>
+                        <a href="">服务类型</a>
+                    </li>
+                    <li>
+                        <a href="">市场细分</a>
+                    </li>
+                    <li>
+                        <a href="">特色服务</a>
+                    </li>
+                </ul>
+                <img class="logo-2" src="./images/logo-2.png" alt="">
+                <!-- 友情链接 -->
+                <ul class="link">
+                    <li>友情链接</li>
+                    <li>
+                        <a href="">中国物业管理行业协会</a>
+                    </li>
+                    <li>
+                        <a href="">上海市物业管理协会</a>
+                    </li>
+                    <li>
+                        <a href="">百联集团</a>
+                    </li>
+                    <li>
+                        <a href="">百联股份</a>
+                    </li>
+                </ul>
+                <!-- 联系我们 -->
+                <ul class="call">
+                    <li>联系我们</li>
+                    <li>
+                        <i class="fa fa-volume-control-phone fa-lg" style="color:#dd0000"></i> &nbsp;电话 : 021-45432349</li>
+                    <li>
+                        <i class="fa fa-fax fa-lg" style="color:#dd0000"></i> 传真 : 021-30437493</li>
+                    <li>
+                        <i class="fa fa-map-marker fa-lg" style="color:#dd0000"></i> &nbsp;&nbsp;地址 : 林路396号3楼</li>
+                    <li>
+                        <i class="fa fa-comments-o fa-lg" style="color:#dd0000"></i> 留言 : 咨询与意见反馈</li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- 底部小标签 -->
+        <div class="tips">
+            <span>Copyright @ 2004 - 2014</span>
+            <span>
+                <a href="">吉林技术有限责任公司</a>
+            </span>
+            <span>
+                <a href="">All Right Reserved .</a>
+            </span>
+            <span> 沪ICP备05027423号</span>
+        </div>
+</body>
+
+</html>
